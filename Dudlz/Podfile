@@ -1,0 +1,14 @@
+platform :ios, "8.0"
+
+target 'Dudlz' do
+
+end
+
+target 'DudlzTests' do
+
+end
+
+target 'DudlzUITests' do
+
+end
+

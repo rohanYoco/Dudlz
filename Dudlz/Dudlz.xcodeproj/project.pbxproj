@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0D9CF9C1BF624DC00F88FDE /* GridFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D9CF9B1BF624DC00F88FDE /* GridFlowLayout.swift */; };
 		C0E0FF921BF4E509005BDC42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E0FF911BF4E509005BDC42 /* AppDelegate.swift */; };
 		C0E0FF941BF4E509005BDC42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E0FF931BF4E509005BDC42 /* ViewController.swift */; };
 		C0E0FF971BF4E509005BDC42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E0FF951BF4E509005BDC42 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C0D9CF9B1BF624DC00F88FDE /* GridFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridFlowLayout.swift; sourceTree = "<group>"; };
 		C0E0FF8E1BF4E509005BDC42 /* Dudlz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dudlz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E0FF911BF4E509005BDC42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0E0FF931BF4E509005BDC42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0D9CF9A1BF6248D00F88FDE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0D9CF9B1BF624DC00F88FDE /* GridFlowLayout.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		C0E0FF851BF4E509005BDC42 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		C0E0FF901BF4E509005BDC42 /* Dudlz */ = {
 			isa = PBXGroup;
 			children = (
+				C0D9CF9A1BF6248D00F88FDE /* Controllers */,
 				C0E0FF911BF4E509005BDC42 /* AppDelegate.swift */,
 				C0E0FF931BF4E509005BDC42 /* ViewController.swift */,
 				C0E0FF951BF4E509005BDC42 /* Main.storyboard */,
@@ -262,6 +273,7 @@
 				C0E0FF941BF4E509005BDC42 /* ViewController.swift in Sources */,
 				C0E0FF921BF4E509005BDC42 /* AppDelegate.swift in Sources */,
 				C0E0FF9A1BF4E509005BDC42 /* Dudlz.xcdatamodeld in Sources */,
+				C0D9CF9C1BF624DC00F88FDE /* GridFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +500,7 @@
 				C0E0FFBB1BF4E50A005BDC42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0E0FFBC1BF4E50A005BDC42 /* Build configuration list for PBXNativeTarget "DudlzTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +509,7 @@
 				C0E0FFBE1BF4E50A005BDC42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0E0FFBF1BF4E50A005BDC42 /* Build configuration list for PBXNativeTarget "DudlzUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +518,7 @@
 				C0E0FFC11BF4E50A005BDC42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
